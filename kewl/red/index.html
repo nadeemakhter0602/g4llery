@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  		<title>Gallery - Indoor Photography</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/fontAwesome.css' %}">
+        <link rel="stylesheet" href="{% static 'css/light-box.css' %}">
+        <link rel="stylesheet" href="{% static 'css/templatemo-style.css' %}">
+
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="{% static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    </head>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><em>Flower Gallery</em></a>
+        </div>
+    </nav>
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+              <h1>Welcome to <em>flower GALLERY</em></h1>
+              <p>Basically a bunch of Indoor Photography</p>
+              <p>Made with 10 Brain Cells</p>
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="{% static 'img/scroll-icon.png' %}" alt=""></a>
+                    
+                </div>    
+            </div>
+        </div>
+        <video autoplay="" loop="" muted>
+            <source src="{% static 'space.mp4' %}" type="video/mp4" />
+            Free Stock Footage by <a href="http://www.videezy.com">Videezy</a>
+        </video>
+    </div>
+<div>
+    <div class="full-screen-portfolio" id="portfolio">
+        <div class="container-fluid">
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/4.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Red <em>Azalea</em></h1>
+                                <p>Flowering shrubs in the genus Rhododendron</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/4.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/5.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Yellow <em>Hibiscus (budding)</em></h1>
+                                <p style="font-style: italic;text-transform: none;">Hibiscus brackenridgei</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/5.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/6.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1><em style="text-emphasis:none;text-transform: none; font-style: italic;">Dahlia pinnata</em></h1>
+                                <p>species in the genus Dahlia, family Asteraceae</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/6.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/8.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>pink<em> Azalea</em></h1>
+                                <p>what the flies feasting on tho?</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/8.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/10.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1 style="text-emphasis:none;text-transform: none;"><em style="font-style: italic;">Hibiscus rosa-sinensis</em> </h1>
+                                <p>flowering plants in the mallow family, Malvaceae</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/10.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/11.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>orange <em>Hibiscus</em></h1>
+                                <p>These are native to tropical asia</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/11.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/12.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Yellow <em>Hibiscus</em></h1>
+                                <p>looks a bit different don't it?</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/12.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/13.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>yellow <em>Hibiscus</em></h1>
+                                <p>fully bloomed</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/13.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/14.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>pink <em>Hibiscus</em></h1>
+                                <p>so many shades of one flower eh?</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/14.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/1.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content"> 
+                                <h1>yet another <em>Hibiscus</em></h1>
+                                <p>yes Hibiscus has a lot of varieties</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/1.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/2.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>yet another <em>Hibiscus (2)</h1>
+                                <p>same as before but different lighting</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/2.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'indoor/3.JPG' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1 style="font-style: normal;">pink <em>Azalea</em></h1>
+                                <p style="font-style: normal;">azaleas bloom in the spring</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'indoor2/3.JPG' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <footer>
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <p style="font-style: normal;">Copyright &copy; D4vid.tech</p>
+                    </div>
+                </div>
+            </footer>
+        
+        
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+    
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+   
+
+    
+</body>
+</html>
